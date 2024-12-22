@@ -1,0 +1,41 @@
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #6c757d;
+}
+.card
+{
+    width: 500px;
+}
+#music-details
+{
+    text-align: center;
+}
+#music-details p
+{
+    margin-bottom: 10px;
+}
+#progress-box
+{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 10px 0;
+}
+#music-list li
+{
+    cursor: pointer;
+}
+#music-list li:hover
+{
+    background-color: #45ecd0;
+    transition: background-color .5s ease-in-out;
+}
+.selected
+{
+    background-color: #6c757d;
+    pointer-events: none;
+}
